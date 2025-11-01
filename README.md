@@ -66,7 +66,7 @@ The **Feature Importance** analysis (represented by the bar chart below) deliver
 * The features **`running_time`** and the presence of **`seasons` / `episodes`** are the **sole dominant factors** driving content classification.
 * **Conclusion:** For automatic tagging of new content, a system only needs to check these two numerical attributes for perfect classification, making all other metadata (genre, year, etc.) secondary to this specific task.
 
-![Bar chart showing the importance of each feature in the Random Forest Model](./Feature_Importance_RFModel.png)
+![Bar chart showing the importance of each feature in the Random Forest Model](./Top10_Features_iMPORTANCES.png)
 
 ---
 
