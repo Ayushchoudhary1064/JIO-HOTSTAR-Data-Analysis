@@ -28,21 +28,22 @@ The analysis began with a look at the content balance and production history.
 
 | Content Type Distribution | Production Year Distribution |
 | :--- | :--- |
-| ![Count plot showing the distribution of Movies vs TV Shows](image_d7f702.jpg) | ![Histogram showing the distribution of content production years](image_d703e1.jpg) |
+| ![Count plot showing the distribution of Movies vs TV Shows](./Content_Type_Distribution.png) | ![Histogram showing the distribution of content production years](./Content_Production_Year.png) |
 
 ### Feature Relationships
 The box plot clearly highlights the reason for the model's perfect score: the numerical features provide complete separation.
 
 | Running Time Distribution by Type | Age Rating Distribution by Type |
 | :--- | :--- |
-| ![Box plot comparing running time across Movies and TV Shows](image_cb9af7.jpg) | ![Grouped bar chart showing content type separated by age rating](image_97f719.jpg) |
+| ![Box plot comparing running time across Movies and TV Shows](./Running_Time_By_Content_Type.png) | ![Grouped bar chart showing content type separated by age rating](./ContentType_By_Age_Rating.png) |
 
 ### Advanced Visualizations
 The correlation heatmap and genre popularity charts provided deeper context on content strategy.
 
 | Numerical Feature Correlation (Heatmap) | Top 10 Primary Genres |
 | :--- | :--- |
-| ![Heatmap showing correlation between numerical features](image_8cb35c.jpg) | ![Bar chart of the 10 most frequent primary genres](image_8890ca.jpg) |
+| ![Heatmap showing correlation between numerical features](./Correlation_between_Numerical_features.png) | ![Bar chart of the 10 most frequent primary genres](./Top10_primary_genres.png) |
+
 
 ---
 
