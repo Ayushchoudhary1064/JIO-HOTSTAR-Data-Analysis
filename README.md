@@ -58,8 +58,13 @@ The model achieved **perfect classification** across all metrics, validating the
 | **Cross-Validation Accuracy** | **1.0000** | **1.0000** | Stability is perfect; the model is fully reliable. |
 | **AUC Score (Test Set)** | - | **1.0000** | The model's ability to discriminate between the two content types is flawless. |
 | **Precision & Recall** | **1.00** | **1.00** | There are zero False Positives or False Negatives. |
+### B. Visual Confirmation: The ROC Curve
+The Receiver Operating Characteristic (ROC) curve visually confirms the perfect performance. The line runs directly to the top-left corner, indicating a **True Positive Rate (Sensitivity) of 1.0** with a **False Positive Rate of 0.0**, yielding the Area Under the Curve (AUC) of $1.0000$.
 
-### B. Feature Interpretability: The Actionable Insight
+![ROC curve showing perfect classification for both models](./ROC_curve.png)
+
+### C. Feature Interpretability: The Actionable Insight
+
 
 The **Feature Importance** analysis (represented by the bar chart below) delivers the project's most critical business insight:
 
